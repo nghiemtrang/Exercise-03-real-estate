@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Fontawesome Icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- Favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/favicon/site.webmanifest" />
+    <title>Real Estate</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar-container">
+          <!-- nav brand -->
+          <div class="nav-brand">
+            <img class="nav-img" src="./assets/img/logo.svg" alt="" />
+            <p class="text-xl">dwelling</p>
+          </div>
+
+          <!-- nav link -->
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href=""></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutus">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Renters</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Homeowners</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#reviews">Reviews</a>
+            </li>
+          </ul>
+
+          <!-- action button -->
+          <div class="nav-action">
+            <button class="nav-action-btn btn-type-2 btn-sm text-md">
+              Register
+            </button>
+            <!-- menu button -->
+            <div class="navbar-menu">
+              <button class="navbar-menu-btn">
+                <i class="fa-solid fa-bars"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div class="header-container">
+          <!-- img -->
+          <div class="header-img">
+            <div class="header-img-box">
+              <img src="./assets/img/header/header1.svg" alt="header image" />
+              <img
+                class="header-img-down"
+                src="./assets/img/header/header2.svg"
+                alt="header image"
+              />
+              <img src="./assets/img/header/header3.svg" alt="header image" />
+              <img
+                class="header-img-down"
+                src="./assets/img/header/header4.svg"
+                alt="header image"
+              />
+            </div>
+          </div>
+
+          <!-- text  -->
+          <div class="header-text">
+            <h1>Home is where your story begins</h1>
+            <p class="text-lg">
+              Building a next-generation collaborative platform to connect
+              renters, homeowners, and agents. Live the way you want. Beautiful
+              homes. Incredible locations. Pricing that makes sense.
+            </p>
+          </div>
+
+          <!-- search box -->
+          <div class="header-search">
+            <div class="search-box">
+              <div class="search-place">
+                <input
+                  class="input text-md"
+                  type="text"
+                  placeholder="Where are you moving?"
+                />
+                <img src="./assets/img/header/search.svg" alt="search" />
+              </div>
+              <div class="search-type">
+                <input
+                  class="input text-md"
+                  list="place"
+                  placeholder="What type of home?"
+                />
+                <datalist id="place">
+                  <option value="A"></option>
+                  <option value="B"></option>
+                  <option value="C"></option>
+                  <option value="D"></option>
+                </datalist>
+                <img src="./assets/img/header/datalist.svg" alt="datalist" />
+              </div>
+              <div class="btn-box btn-type-2">
+                <button class="btn-type-2 text-md">Find a home</button>
+                <i class="fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
+            <img
+              class="scroll"
+              src="./assets/img/header/Scroll.svg"
+              alt="scroll"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main -->
+    <main>
+      <!-- Trust -->
+      <section class="trust" id="aboutus">
+        <div class="container">
+          <div class="trust-container">
+            <div class="trust-box">
+              <!-- text -->
+              <div class="trust-text">
+                <h2 class="text-box-md">
+                  Trusted by the people across the globe
+                </h2>
+                <div class="text-box-sm">
+                  <p class="text-lg">
+                    Building a next-generation collaborative platform to connect
+                    renters, homeowners, and agents. Live the way you want.
+                    Beautiful homes. Incredible locations. Pricing that makes
+                    sense.
+                  </p>
+                  <p class="text-lg">
+                    No matter what stage of life you’re in, having friends to
+                    share experiences with is what it’s all about.
+                  </p>
+                </div>
+              </div>
+
+              <!-- trust number -->
+              <div class="trust-numbers">
+                <div class="trust-number">
+                  <div class="icon">
+                    <img src="./assets/img/trust/trust1.svg" alt="supprise" />
+                  </div>
+                  <div class="trust-number-text">
+                    <h2>+20K</h2>
+                    <p class="text-lg">Clients worldwide</p>
+                  </div>
+                </div>
+                <div class="trust-number">
+                  <div class="icon">
+                    <img src="./assets/img/trust/trust2.svg" alt="heart" />
+                  </div>
+                  <div class="trust-number-text">
+                    <h2>95.7%</h2>
+                    <p class="text-lg">Satisfied Clients</p>
+                  </div>
+                </div>
+                <div class="trust-number">
+                  <div class="icon">
+                    <img src="./assets/img/trust/trust3.svg" alt="smile" />
+                  </div>
+                  <div class="trust-number-text">
+                    <h2>100+</h2>
+                    <p class="text-lg">City around</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section class="about">
+        <div class="container">
+          <div class="about-container">
+            <!-- about img -->
+            <div class="about-images text-box-md">
+              <div class="about-room-img text-box-sm">
+                <img src="./assets/img/about/about1.svg" alt="about-image" />
+              </div>
+              <!-- avatar & info & button -->
+              <div class="about-shadow">
+                <div class="about-avatar">
+                  <div class="agent-avatar">
+                    <img src="./assets/img/about/ava.svg" alt="about-avatar" />
+                  </div>
+                  <div class="agent-info">
+                    <p class="text-lg heading">David Warner</p>
+                    <p class="text-sm">Property Agent</p>
+                  </div>
+
+                  <div>
+                    <button class="btn-type-1 btn-sm text-md">Messages</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- about text -->
+            <div class="about-text">
+              <div class="about-text-item">
+                <div class="text-box-sm">
+                  <h2 class="heading about-heading">
+                    Providing the effective solutions for you
+                  </h2>
+                  <p class="text-lg about-content">
+                    Building a next-generation collaborative platform to connect
+                    renters, homeowners, and agents. Live the way you want.
+                    Beautiful homes. Incredible locations. Pricing that makes
+                    sense.
+                  </p>
+                  <div class="">
+                    <button class="btn-type-2 btn-lg text-lg">
+                      More About Us
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Property -->
+      <section class="property">
+        <div class="half-bg">
+          <div class="container">
+            <div class="property-container">
+              <!-- property content -->
+              <div class="property-text">
+                <div class="property-content text-box-sm">
+                  <h2>Popular property</h2>
+                  <p class="text-lg">
+                    Building a next-generation collaborative platform to connect
+                    renters, homeowners, and agents.
+                  </p>
+                </div>
+                <div class="property-link">
+                  <a href="">
+                    <img
+                      class="btn-cricle"
+                      src="./assets/img/property/button-cricle-1.svg"
+                      alt=""
+                    />
+                  </a>
+                  <a href="">
+                    <img
+                      class="btn-cricle"
+                      src="./assets/img/property/button-cricle-2.svg"
+                      alt=""
+                    />
+                  </a>
+                </div>
+              </div>
+
+              <!-- Property items -->
+              <ul class="property-items">
+                <!-- item 1 -->
+                <li class="property-item">
+                  <img
+                    class="property-img"
+                    src="./assets/img/property/property1.svg"
+                    alt=""
+                  />
+
+                  <div class="property-item-info">
+                    <div>
+                      <h4 class="heading">
+                        <span class="dolla-color">$</span> 49,143
+                      </h4>
+                      <h3 class="heading">Gulshan duplex house</h3>
+                    </div>
+                    <div class="property-item-link">
+                      <a href="">
+                        <img
+                          class="btn-cricle"
+                          src="./assets/img/property/button-cricle-3.svg"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </li>
+
+                <!-- item 2 -->
+                <li class="property-item property-item-display">
+                  <img
+                    class="property-img"
+                    src="./assets/img/property/property2.svg"
+                    alt=""
+                  />
+
+                  <div class="property-item-info">
+                    <div>
+                      <h4 class="heading">
+                        <span class="dolla-color">$</span> 49,143
+                      </h4>
+                      <h3 class="heading">Gulshan duplex house</h3>
+                    </div>
+                    <div class="property-item-link">
+                      <a href="">
+                        <img
+                          class="btn-cricle"
+                          src="./assets/img/property/button-cricle-3.svg"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </li>
+
+                <!-- item 3 -->
+                <li class="property-item property-item-display">
+                  <img
+                    class="property-img"
+                    src="./assets/img/property/property3.svg"
+                    alt=""
+                  />
+
+                  <div class="property-item-info">
+                    <div>
+                      <h4 class="heading">
+                        <span class="dolla-color">$</span>49,143
+                      </h4>
+                      <h3 class="heading">Gulshan duplex house</h3>
+                    </div>
+                    <div class="property-item-link">
+                      <a href="">
+                        <img
+                          class="btn-cricle"
+                          src="./assets/img/property/button-cricle-3.svg"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+
+              <div class="property-active">
+                <button class="btn-type-2 btn-lg text-lg">All Property</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Service -->
+      <section class="service">
+        <div class="container">
+          <div class="service-container">
+            <div class="service-content text-box-sm">
+              <h2 class="heading">What we give you</h2>
+              <p class="text-lg">
+                Building a next-generation collaborative platform to connect
+                renters, homeowners, and agents.
+              </p>
+            </div>
+            <div>
+              <img src="./assets/img/video-service.svg" alt="video" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Reviews -->
+      <section class="reviews" id="reviews">
+        <div class="container">
+          <div class="reviews-container">
+            <div class="rewviews-box">
+              <div class="reviews-text">
+                <div class="reviews-header">
+                  <h2 class="heading review-heading text-box-sm">
+                    What client say
+                  </h2>
+                  <div class="reviews-btn">
+                    <a class="reviews-dot" href=""></a>
+                    <a class="reviews-dot btn-type-2" href=""></a>
+                    <a class="reviews-dot" href=""></a>
+                  </div>
+                </div>
+                <div class="reviews-content">
+                  <img
+                    class="reviews-icon"
+                    src="./assets/img/Reviews/reviews-dauphay.svg"
+                    alt=""
+                  />
+                  <p class="text-lg">
+                    I love Dwelling! They make it super easy and safe to find a
+                    room for rent. Customer service is vary quick and helpful.
+                    Highly recommend this platform. Really a great and wonderful
+                    platform to find rooms and houses in quick time.
+                  </p>
+                  <div class="reviewer">
+                    <img
+                      class="reviewer-avatar"
+                      src="./assets/img/Reviews/Reviews-avatar.svg"
+                      alt=""
+                    />
+                    <div class="reviewer-info">
+                      <p class="text-lg review-heading">Joe Root</p>
+                      <p class="text-md">UI/UX designer</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- brand logo -->
+              <div class="reviews-brand">
+                <div class="reviews-brand-logo">
+                  <img
+                    src="./assets/img/Reviews/brand-logo/nerrdwallet.svg"
+                    alt=""
+                  />
+                  <img
+                    src="./assets/img/Reviews/brand-logo/indeed.svg"
+                    alt=""
+                  />
+                  <img
+                    src="./assets/img/Reviews/brand-logo/richfood.svg"
+                    alt=""
+                  />
+                  <img
+                    src="./assets/img/Reviews/brand-logo/nexflix.svg"
+                    alt=""
+                  />
+                  <img
+                    src="./assets/img/Reviews/brand-logo/shinetsu.svg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <section class="CTA">
+        <div class="container">
+          <div class="CTA-container">
+            <div class="CTA-images">
+              <img class="CTA-img" src="./assets/img/CTA/CTA1.svg" alt="" />
+              <img class="CTA-img" src="./assets/img/CTA/CTA2.svg " alt="" />
+            </div>
+            <div class="CTA-content text-box-sm">
+              <h2 class="heading">Ready to find your dream home?</h2>
+              <p class="text-lg">
+                Building a next-generation collaborative platform to connect
+                renters, homeowners, and agents. Live the way you want.
+                Beautiful homes.
+              </p>
+              <button class="CTA-btn btn-lg btn-type-2 text-lg">
+                Find Home
+              </button>
+              <button class="CTA-btn btn-lg btn-type-1 text-lg">
+                Contact us
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-container">
+          <div class="footer-border">
+            <div class="footer-content">
+              <div class="footer-brand text">
+                <div class="brand">
+                  <img class="brand-img" src="./assets/img/logo.svg" alt="" />
+                  <p class="text-xl heading">dwelling</p>
+                </div>
+                <p>
+                  Building a next-generation collaborative platform to connect
+                  renters, homeowners, and agents.
+                </p>
+                <div class="footer-input-box">
+                  <input
+                    class="footer-input text-lg"
+                    type="text"
+                    placeholder="email"
+                  />
+                  <button class="btn-type-2 btn-lg text-lg">Send</button>
+                </div>
+              </div>
+
+              <div class="footer-links">
+                <div class="link-list">
+                  <h4 class="heading">Dwelling</h4>
+                  <ul class="text-lg">
+                    <li>
+                      <a href="">Find my home</a>
+                    </li>
+                    <li>
+                      <a href="">Homeowners</a>
+                    </li>
+                    <li>
+                      <a href="">Community</a>
+                    </li>
+                    <li>
+                      <a href="">Reviews</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="link-list">
+                  <h4 class="heading">Company</h4>
+                  <ul class="text-lg">
+                    <li>
+                      <a href="">Features</a>
+                    </li>
+                    <li>
+                      <a href="">Articles</a>
+                    </li>
+                    <li>
+                      <a href="">Press</a>
+                    </li>
+                    <li>
+                      <a href="">Refer</a>
+                    </li>
+                    <li>
+                      <a href="">Careers</a>
+                    </li>
+                    <li>
+                      <a href="">API documentations</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="link-list">
+                  <h4 class="heading">Support</h4>
+                  <ul class="text-lg">
+                    <li>
+                      <a href="">Contact</a>
+                    </li>
+                    <li>
+                      <a href="">Privacy</a>
+                    </li>
+                    <li>
+                      <a href="">Terms</a>
+                    </li>
+                    <li>
+                      <a href="">FAQ</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- copy right -->
+          <div class="copy-right">
+            <div class="media">
+              <a href="" class="media-link">
+                <img
+                  class="media-img"
+                  src="./assets/img/footer/fb.svg"
+                  alt=""
+                />
+              </a>
+              <a href="" class="media-link">
+                <img
+                  class="media-img"
+                  src="./assets/img/footer/in.svg"
+                  alt=""
+                />
+              </a>
+              <a href="" class="media-link">
+                <img
+                  class="media-img"
+                  src="./assets/img/footer/tw.svg"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div>Copyright @UIHUT 2022</div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
