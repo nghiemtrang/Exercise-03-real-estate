@@ -39,6 +39,8 @@ body {
   line-height: var(--lh-base);
   color: var(--body-color);
   background-color: var(--thirdary-color);
+
+  overflow-x: hidden;
 }
 
 
