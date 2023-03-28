@@ -43,8 +43,7 @@ body {
   overflow-x: hidden;
 }
 
-
-@media (max-width:376px){
+@media (max-width: 376px) {
   body {
     font-size: var(--fs-moblie);
     font-weight: 400;
