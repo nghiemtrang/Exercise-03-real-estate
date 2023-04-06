@@ -1,3 +1,4 @@
+https://thaotrang-exercise-02.netlify.app/
 # Exercise-03-real-estate
 # Color
 
